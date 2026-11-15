@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portafolio profesional · Sergio Leonardo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Questrial&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🎮%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="band"><p class="disp" style="font-size:clamp(1.6rem,5vw,2.4rem)">Portafolio profesional</p></header>
+<nav id="nav" aria-label="Secciones"></nav>
+<!-- CONTENIDO: cada <section id="..."> es una página del sitio (inicio = Sobre mí, habilidades, proyectos, contacto).
+     Para cambiar un texto, edítalo aquí. Para añadir un proyecto, copia un bloque <article class="skill"> dentro de la sección "proyectos". -->
+<main>
+
+<section id="inicio" data-title="Sobre mí" hidden><div class="band"><h1 class="disp">Sobre mí</h1></div><div class="page"><div class="wrap">
+<div class="hero">
+<div class="box"><div class="role" style="margin-top:0"><p class="disp" style="margin:0;font-size:clamp(1.3rem,4.5vw,2.2rem)">Desarrollador de niveles</p></div><p style="margin:.8rem 0 0"><b>Sergio Leonardo Vivas</b> · Lay O’ Craft</p></div>
+<img class="round" src="img/foto-sergio.jpg" alt="Retrato de Sergio Leonardo con gafas de marco grueso">
+</div>
+<div class="box cy"><p>Hola, soy Sergio Leonardo Vivas y quiero especializarme en un aspecto esencial de los videojuegos: el diseño de niveles.</p>
+<p>Para eso establecí mi estudio, Lay O’ Craft, que se enfoca en el desarrollo de niveles y layout con unas particularidades en mente: la planeación, los assets, los enemigos, el diseño y el testeo, para satisfacer a jugadores de juegos de plataformas 2D.</p></div>
+<div class="duo">
+<img class="logo" src="img/logo-lay-o-craft.webp" alt="Logo de Lay O’ Craft: una flecha azul sobre un vehículo con bandera">
+<div class="box cy"><p>Para demostrar mi potencial hice un proyecto que consiste en una compilación de niveles, desarrollado en un programa que he encontrado muy cómodo y entendible para mí: Godot.</p>
+<p>En él muestro los aspectos que tuve que aprender para hacer un juego con un framework y para practicar lo básico de este programa.</p></div>
+</div>
+<ul class="hub">
+<li><a href="#habilidades"><b>Habilidades</b></a></li>
+<li><a href="#proyectos"><b>Proyectos</b></a></li>
+<li><a href="#contacto"><b>Contacto</b></a></li>
+</ul>
+</div></div></section>
+
+<section id="habilidades" data-title="Habilidades" hidden><div class="band"><h1 class="disp">Habilidades</h1></div><div class="page"><div class="wrap">
+<article class="skill"><h2 class="chip disp">Edición de gráficas</h2>
+<div class="box"><p>Un proceso esencial para desarrollar niveles es tener assets para usar. Edito gráficas en pixel art 2D para adaptarlas a un estilo específico, con edición y organización para implementarlas de forma adecuada en Godot.</p><p class="tools">Herramientas: Paint.NET e Image Resizer.</p></div>
+<div class="shots"><img src="img/image-resizer.jpg" alt="Image Resizer ampliando un tileset de pasto y roca de 350×176 a 700×352"><img src="img/paintnet-sprites.jpg" alt="Paint.NET con sprites de muñecos de nieve y árboles sobre fondo transparente"><img src="img/paintnet-tileset.jpg" alt="Paint.NET con un tile de roca y pasto en pixel art"></div><p class="rel">Se aplica en el <a href="#proyectos">Flujo de trabajo</a>: tiles y elementos de escenario ›</p></article>
+
+<article class="skill"><h2 class="chip disp">Atmósfera y audio</h2>
+<div class="box"><p>La atmósfera es otro elemento esencial en un nivel. Para mí, significa buscar la música que mejor encaje con la intención y el tema de este. Busco en mis propias fuentes y edito las pistas para que sean de la mejor calidad posible (cuando aplica hacerlo).</p><p class="tools">Herramientas: Audacity, SNES SPC700 Player, The Mod Archive y SMW Central.</p></div>
+<div class="shots"><img src="img/mod-archive.jpg" alt="Buscador de The Mod Archive"><img src="img/smw-central.jpg" alt="Página de SMW Central con la banda sonora de Super Mario All-Stars"><img src="img/spc700-player.jpg" alt="Reproductor SNES SPC700 Player"><img src="img/audacity.jpg" alt="Audacity mostrando la forma de onda de una pista"></div><p class="rel">Se aplica en el <a href="#proyectos">Flujo de trabajo</a>: música y loops ›</p></article>
+
+<article class="skill"><h2 class="chip disp">Godot</h2>
+<div class="box"><p>Este programa es complejo y, a la vez, accesible de entender, en parte por su sistema jerárquico de árboles de nodos, donde todo es hijo del root principal del motor.</p><p>Aprendí a crear distintas “escenas”, traer tilesets, conocer los tipos de nodos, usar lo básico del framework y hacer pruebas de layout.</p></div>
+<div class="shots"><img src="img/godot-arbol-nodos.jpg" alt="Árbol de nodos de un nivel en Godot"><img src="img/godot-animacion.jpg" alt="Editor de animación de un sprite en Godot"><img src="img/godot-tilemaplayer.jpg" alt="Propiedades de TileMapLayer en Godot"><img src="img/godot-carpetas.jpg" alt="Estructura de carpetas del proyecto"><img src="img/godot-layout-plataformas.jpg" alt="Layout de un nivel con plataformas móviles en Godot"><img src="img/godot-tile-sources.jpg" alt="Panel de tile sources de Godot"></div><p class="rel">Se aplica en el <a href="#proyectos">Flujo de trabajo</a>: layout, testeo y conexión del mapa ›</p></article>
+
+<article class="skill"><h2 class="chip disp">Mapas y texto estilizado</h2>
+<div class="box"><p>Desarrollo un mapa y texto estilizado y los traigo a Godot con la lógica establecida para ellos.</p><p class="tools">Herramienta: RealDrawPro 5.</p></div>
+<div class="shots"><img src="img/mapa-godot.jpg" alt="Mapa del mundo en el editor de Godot"><img src="img/mapa-realdraw.jpg" alt="Mapa dibujado en RealDrawPro 5"><img src="img/elementos-mapa.jpg" alt="Elementos del mapa: nubes, tuberías, bloques y un castillo"></div><p class="rel">Se aplica en el <a href="#proyectos">Flujo de trabajo</a>: testeo y conexión del mapa ›</p></article>
+</div></div></section>
+
+<section id="proyectos" data-title="Proyectos" hidden><div class="band"><h1 class="disp">Proyectos</h1></div><div class="page"><div class="wrap">
+<article class="skill"><h2 class="chip disp">Mario Forever: The Lost Throwback</h2>
+<img class="fig" style="max-width:36rem" src="img/pantalla-titulo.jpg" alt="Pantalla de título de Mario Forever: The Lost Throwback, versión 1.0.0, por Lay O’ Craft">
+<div class="box"><p>Proyecto personal hecho con Thunder Engine, el framework con el que puse a prueba todo lo anterior.</p>
+<p>Tiene buenas físicas, objetos, clases, enemigos y tiles que sirven como ejemplo, además de una guía de cómo hacer ciertas cosas con un sistema de logros.</p>
+<p>Consiste en un mundo principal con 5 niveles, y se planea tener 5 más como contenido extra.</p>
+<p class="repo"><a href="https://github.com/Leonardo1228/mf-the-lost-throwback-main" rel="noopener">Descargar</a><span>Versión 1.1.1</span></p>
+<p class="rel">Con qué herramientas: <a href="#habilidades">Habilidades</a> ›</p></div></article>
+<article class="skill"><h2 class="chip disp">Flujo de trabajo</h2>
+<div class="box"><p>Así construí los niveles de este proyecto, desde la elección de enemigos hasta la exportación del juego.</p></div>
+<ol class="steps">
+<li><b>Elección de enemigos y gimmicks</b>Para idear un layout bien elaborado, se empieza eligiendo los enemigos o gimmicks, para luego traerlos a las escenas.</li>
+<li><b>Tiles y elementos de escenario</b>Se traen los tiles y los elementos de escenario al programa para utilizarlos. <a class="rel" href="#habilidades">Habilidad relacionada ›</a></li>
+<li><b>Layout</b>En la mayoría de los casos desarrollo primero, en gran parte, un layout vacío antes de poner props y enemigos en su lugar. Hubo ocasiones en que su posición se determinó al ritmo del desarrollo del layout. <a class="rel" href="#habilidades">Habilidad relacionada ›</a></li>
+<li><b>Música y loops</b>Busco la música considerada ideal para el nivel y determino su loop para que suene natural. <a class="rel" href="#habilidades">Habilidad relacionada ›</a></li>
+<li><b>Testeo y conexión del mapa</b>Hago testeo y conexión lógica del mapa, junto con cambios a los niveles según el testing interno en DEBUG, para mejorar la experiencia del juego. <a class="rel" href="#habilidades">Habilidad relacionada ›</a></li>
+<li><b>Niveles extra</b>Se agregan las entradas a los niveles extra cuando se han completado.</li>
+<li><b>Sistema de logros</b>Se maneja la lógica del sistema de logros.</li>
+<li><b>Información del juego</b>Se actualiza la información de la pantalla de título, los créditos y el editor del proyecto.</li>
+<li><b>Exportación</b>Se exporta el EXE del proyecto para subirlo; sería su salida oficial.</li>
+</ol>
+<p class="rel">Herramientas de cada paso: <a href="#habilidades">Habilidades</a> ›</p></article>
+<article class="skill"><h2 class="chip disp">Niveles principales</h2><div class="shots"><figure><img src="img/nivel-1-the-lost-level-build.jpg" alt="Nivel 1 con pasto, tuberías verdes y koopas"><figcaption>Nivel 1 · The Lost Level Build</figcaption></figure><figure><img src="img/nivel-2-offensive-cave.jpg" alt="Nivel 2 en una cueva con tuberías moradas y plantas piraña"><figcaption>Nivel 2 · Offensive Cave</figcaption></figure><figure><img src="img/nivel-3-artillery-tanks.jpg" alt="Nivel 3 sobre tanques de artillería"><figcaption>Nivel 3 · Artillery Tanks</figcaption></figure><figure><img src="img/nivel-4-rocky-spines.jpg" alt="Nivel 4 con plataformas de pasto y espinas"><figcaption>Nivel 4 · Rocky Spines</figcaption></figure><figure><img src="img/nivel-5-fiery-fortress.jpg" alt="Nivel 5 en una fortaleza con lava"><figcaption>Nivel 5 · Fiery Fortress</figcaption></figure></div></article>
+<article class="skill"><h2 class="chip disp">Niveles extra</h2><div class="shots"><figure><img src="img/extra-human-lab-mayhem.jpg" alt="Nivel extra con laboratorio, tuberías y enemigos blancos"><figcaption>Human Lab Mayhem</figcaption></figure><figure><img src="img/extra-funner-winter.jpg" alt="Nivel extra nocturno de invierno con hielo"><figcaption>Funner Winter</figcaption></figure><figure><img src="img/extra-sneaky-castle-ride.jpg" alt="Nivel extra de castillo en la oscuridad"><figcaption>Sneaky Castle Ride</figcaption></figure><figure><img src="img/extra-bright-beachside.jpg" alt="Nivel extra junto al mar"><figcaption>Bright Beachside</figcaption></figure><figure><img src="img/extra-world-5-1.jpg" alt="Nivel extra con fondo morado y ladrillos"><figcaption>World 5-1?</figcaption></figure></div></article>
+</div></div></section>
+
+<section id="contacto" data-title="Contacto" hidden><div class="band"><h1 class="disp">Contacto</h1></div><div class="page"><div class="wrap">
+<div class="box"><h2 class="disp" style="font-size:1.6rem">Contactos y GitHub</h2>
+<ul class="contact">
+<li><img src="img/icono-correo.webp" alt=""><a href="mailto:vivas.2812@gmail.com">vivas.2812@gmail.com</a></li>
+<li><img src="img/icono-telefono.webp" alt=""><a href="tel:+573218703695">(+57) 321-870-3695</a></li>
+<li><img src="img/icono-github.webp" alt=""><a href="https://github.com/Leonardo1228" rel="noopener">github.com/Leonardo1228</a></li>
+</ul></div>
+<div class="box"><h2 class="disp" style="font-size:1.6rem">Redes</h2>
+<ul class="contact">
+<li><a href="https://www.linkedin.com/in/sergio-leonardo-vivas-ria%C3%B1o-8708673a0/" rel="noopener">LinkedIn: Sergio Leonardo Vivas Riaño</a></li>
+<li><a href="https://x.com/VivasRiano" rel="noopener">X: @VivasRiano</a></li>
+</ul></div>
+</div></div></section>
+
+</main>
+<div class="page" style="padding-top:0"><div id="pager" class="pager"></div></div>
+<footer>Sergio Leonardo Vivas · Lay O’ Craft</footer>
+<script src="script.js"></script>
+</body>
+</html>
